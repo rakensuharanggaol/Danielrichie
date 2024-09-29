@@ -1,7 +1,7 @@
  body {
             font-family: 'Arial', sans-serif;
-            background-color: #f0f0f0; /* Latar belakang abu-abu muda */
-            color: #000; /* Teks hitam */
+            background-color: #f0f0f0; 
+            color: #000; 
             margin: 0;
             padding: 20px;
         }
@@ -15,24 +15,24 @@
             width: 100%;
             border-collapse: collapse;
             margin: 20px 0;
-            background-color: #fff; /* Latar belakang tabel putih */
+            background-color: #fff; 
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
 
         th, td {
-            border: 1px solid #ccc; /* Border tabel */
+            border: 1px solid #ccc; 
             padding: 10px;
             text-align: left;
         }
 
         th {
-            background-color: #87CEEB; /* Latar belakang header tabel */
-            color: #fff; /* Warna teks header */
+            background-color: #87CEEB;
+            color: #fff;
         }
 
         tr:nth-child(even) {
-            background-color: #f9f9f9; /* Latar belakang baris genap */
+            background-color: #f9f9f9; 
         }
 
         tr:hover {
