@@ -1,4 +1,10 @@
-  h-7 {
+body {
+            font-family: 'Arial', sans-serif;
+            background-color: #eef;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+h-7 {
             color: #2c3e50;
             text-align: center;
             margin-bottom: 20px;
