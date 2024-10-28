@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modul 2 - Perpustakaan Digital</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="modul2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="bahan/peace.png" alt="Logo Perpustakaan">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Beranda</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Modul</a>
+                    <div class="dropdown-content">
+                        <a href="modul1.html">Modul 1</a>
+                        <a href="modul2.html">Modul 2</a>
+                        <a href="modul3.html">Modul 3</a>
+                        <a href="modul4.html">Modul 4</a>
+                        <a href="modul5.html">Modul 5</a>
+                        <a href="modul6.html">Modul 6</a>
+                        <a href="modul7.html">Modul 7</a>
+                        <a href="modul8.html">Modul 8</a>
+                    </div>
+                </li>
+                <li><a href="koleksi.html">Koleksi</a></li>
+                <li><a href="layanan.html">Layanan</a></li>
+                <li><a href="tentang.html">Tentang Kami</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="module-section">
+            <h2>Formulir Anggota Perpustakaan</h2>
+            <h3>Program Studi Perpustakaan dan Sains Informasi</h3>
+            <form id="membership-form">
+                <div class="form-group">
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" name="nama" required>
+                </div>
+                <div class="form-group">
+                    <label for="nim">NIM:</label>
+                    <input type="text" id="nim" name="nim" required>
+                </div>
+                <div class="form-group">
+                    <label for="alamat">Alamat:</label>
+                    <textarea id="alamat" name="alamat" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Jenis Kelamin:</label>
+                    <div class="radio-group">
+                        <input type="radio" id="laki-laki" name="jenis_kelamin" value="Laki-laki" required>
+                        <label for="laki-laki">Laki-laki</label>
+                        <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan">
+                        <label for="perempuan">Perempuan</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="no_hp">No HP:</label>
+                    <input type="tel" id="no_hp" name="no_hp" required>
+                </div>
+                <div class="form-group">
+                    <label for="tempat_lahir">Tempat Lahir:</label>
+                    <input type="text" id="tempat_lahir" name="tempat_lahir" required>
+                </div>
+                <div class="form-group">
+                    <label for="tanggal_lahir">Tanggal Lahir:</label>
+                    <input type="date" id="tanggal_lahir" name="tanggal_lahir" required>
+                </div>
+                <button type="submit">Daftar</button>
+            </form>
+        </section>
+
+        <section class="module-section">
+            <h2>Tabel Bahan Buku</h2>
+            <table id="book-materials">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Judul Buku</th>
+                        <th>Pengarang</th>
+                        <th>Penerbit</th>
+                        <th>Tahun Terbit</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Pengantar Ilmu Perpustakaan</td>
+                        <td>Sulistyo Basuki</td>
+                        <td>Gramedia</td>
+                        <td>2010</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Manajemen Perpustakaan Digital</td>
+                        <td>Testiani Makmur</td>
+                        <td>Ombak</td>
+                        <td>2015</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Perpustakaan dan Masyarakat</td>
+                        <td>Sutarno NS</td>
+                        <td>Sagung Seto</td>
+                        <td>2006</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Dasar-Dasar Ilmu Perpustakaan dan Informasi</td>
+                        <td>Wiji Suwarno</td>
+                        <td>Ar-Ruzz Media</td>
+                        <td>2010</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Teknologi Informasi Perpustakaan</td>
+                        <td>Wahyu Supriyanto</td>
+                        <td>Kanisius</td>
+                        <td>2008</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Perpustakaan sebagai Jantung Sekolah</td>
+                        <td>Suherman</td>
+                        <td>MQS Publishing</td>
+                        <td>2009</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="module-section">
+            <h2>Form Pemesanan Buku</h2>
+            <form id="book-order-form">
+                <div class="form-group">
+                    <label for="judul_buku">Judul Buku:</label>
+                    <input type="text" id="judul_buku" name="judul_buku" required>
+                </div>
+                <div class="form-group">
+                    <label for="pengarang">Pengarang:</label>
+                    <input type="text" id="pengarang" name="pengarang" required>
+                </div>
+                <div class="form-group">
+                    <label for="jumlah">Jumlah:</label>
+                    <input type="number" id="jumlah" name="jumlah" min="1" required>
+                </div>
+                <button type="submit">Pesan Buku</button>
+            </form>
+        </section>
+
+        <section class="module-section">
+            <h2>Form Perpanjangan Peminjaman Buku</h2>
+            <form id="loan-extension-form">
+                <div class="form-group">
+                    <label for="no_anggota">Nomor Anggota:</label>
+                    <input type="text" id="no_anggota" name="no_anggota" required>
+                </div>
+                <div class="form-group">
+                    <label for="judul_buku_pinjam">Judul Buku:</label>
+                    <input type="text" id="judul_buku_pinjam" name="judul_buku_pinjam" required>
+                </div>
+                <div class="form-group">
+                    <label for="tanggal_pinjam">Tanggal Pinjam:</label>
+                    <input type="date" id="tanggal_pinjam" name="tanggal_pinjam" required>
+                </div>
+                <div class="form-group">
+                    <label for="tanggal_kembali">Tanggal Kembali Baru:</label>
+                    <input type="date" id="tanggal_kembali" name="tanggal_kembali" required>
+                </div>
+                <button type="submit">Perpanjang Peminjaman</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Perpustakaan Digital. Hak Cipta Dilindungi.</p>
+    </footer>
+</body>
+</html>

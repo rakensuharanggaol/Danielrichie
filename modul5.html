@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modul 1 - Perpustakaan Digital</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="modul1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="modul5.css">
+    <script src="modul5.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="bahan/peace.png" alt="Logo Perpustakaan">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Beranda</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Modul</a>
+                    <div class="dropdown-content">
+                        <a href="modul1.html">Modul 1</a>
+                        <a href="modul2.html">Modul 2</a>
+                        <a href="modul3.html">Modul 3</a>
+                        <a href="modul4.html">Modul 4</a>
+                        <a href="modul5.html">Modul 5</a>
+                        <a href="modul6.html">Modul 6</a>
+                        <a href="modul7.html">Modul 7</a>
+                        <a href="modul8.html">Modul 8</a>
+                    </div>
+                </li>
+                <li><a href="koleksi.html">Koleksi</a></li>
+                <li><a href="layanan.html">Layanan</a></li>
+                <li><a href="tentang.html">Tentang Kami</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="module-section">
+            <h2>Data Perpustakaan</h2>
+            <div id="data-display"></div>
+        </section>
+
+        <section class="module-section">
+            <h2>Informasi Perpustakaan</h2>
+            <div id="info-display"></div>
+        </section>
+
+        <section class="module-section">
+            <h2>Pameran Buku</h2>
+            <button id="togglePameran">Pamerkan Buku</button>
+            <div id="pameranInfo" style="display: none;">
+                <h3>Pameran Buku Tahunan</h3>
+                <p>Tanggal: 1-7 Juni 2024</p>
+                <p>Tempat: Aula Utama Perpustakaan</p>
+                <div id="bukuPameran"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Perpustakaan Digital. Hak Cipta Dilindungi.</p>
+    </footer>
+</body>
+</html>
