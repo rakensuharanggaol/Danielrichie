@@ -1,0 +1,92 @@
+.module-content {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    max-width: 800px;
+    margin: 2rem auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.module-content h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.module-content ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.module-content ul li {
+    margin-bottom: 0.5rem;
+}
+
+.module-content ul li a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.module-content ul li a:hover {
+    color: #2980b9;
+}
+
+.module-section {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    max-width: 800px;
+    margin: 2rem auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.module-section h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.module-section ul, .module-section ol {
+    padding-left: 1.5rem;
+}
+
+.module-section li {
+    margin-bottom: 0.5rem;
+}
+
+.reservation-section {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+}
+
+.reservation-section h3 {
+    margin-bottom: 1rem;
+}
+
+#datepicker {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 200px;
+}
+
+/* Styling untuk accordion */
+.ui-accordion .ui-accordion-header {
+    background: #3498db;
+    color: white;
+    padding: 1rem;
+    margin-top: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+.ui-accordion .ui-accordion-content {
+    padding: 1rem;
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+}
