@@ -1,1 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modul 1 - Perpustakaan Digital</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="modul1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="modul6.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <script src="modul6.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="bahan/peace.png" alt="Logo Perpustakaan">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Beranda</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Modul</a>
+                    <div class="dropdown-content">
+                        <a href="modul1.html">Modul 1</a>
+                        <a href="modul2.html">Modul 2</a>
+                        <a href="modul3.html">Modul 3</a>
+                        <a href="modul4.html">Modul 4</a>
+                        <a href="modul5.html">Modul 5</a>
+                        <a href="modul6.html">Modul 6</a>
+                        <a href="modul7.html">Modul 7</a>
+                        <a href="modul8.html">Modul 8</a>
+                    </div>
+                </li>
+                <li><a href="koleksi.html">Koleksi</a></li>
+                <li><a href="layanan.html">Layanan</a></li>
+                <li><a href="tentang.html">Tentang Kami</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <section>
+        <div class="module-content">
+            <h2>Modul 6 - jQuery dan Plugins</h2>
+            
+            <!-- Accordion menggunakan jQuery UI -->
+            <div id="accordion">
+                <h3>Layanan Perpustakaan</h3>
+                <div>
+                    <p>Informasi tentang layanan perpustakaan yang tersedia.</p>
+                    <ul>
+                        <li>Peminjaman Buku</li>
+                        <li>Ruang Baca</li>
+                        <li>Akses Internet</li>
+                    </ul>
+                </div>
+                
+                <h3>Koleksi Terbaru</h3>
+                <div>
+                    <p>Daftar koleksi buku terbaru bulan ini.</p>
+                </div>
+                
+                <h3>Jadwal Operasional</h3>
+                <div>
+                    <p>Informasi jadwal buka perpustakaan.</p>
+                </div>
+            </div>
+
+            <!-- Datepicker untuk reservasi -->
+            <div class="reservation-section">
+                <h3>Reservasi Ruang Baca</h3>
+                <input type="text" id="datepicker" placeholder="Pilih Tanggal">
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Perpustakaan Digital. Hak Cipta Dilindungi.</p>
+    </footer>
+</body>
+</html>
